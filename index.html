@@ -134,9 +134,9 @@
       <table>
         <thead><tr><th>First Name</th><th>Last Name</th><th>Email</th><th>City</th><th>Signup Date</th><th>Plan</th></tr></thead>
         <tbody>
-          <tr><td>&nbsp;&nbsp;john&nbsp;</td><td>SMITH&nbsp;</td><td>&nbsp;john.smith@mail.com&nbsp;</td><td>edmonton</td><td>03/14/2026</td><td>Pro</td></tr>
-          <tr><td>jane</td><td>doe</td><td>jane.doe@mail.com</td><td>CALGARY</td><td>2026-03-15</td><td>Basic</td></tr>
-          <tr><td>Bob</td><td>&nbsp;&nbsp;JOHNSON</td><td>bob.j@mail.com&nbsp;</td><td>Edmonton</td><td>March 2, 2026</td><td>Pro</td></tr>
+          <tr><td>&nbsp;&nbsp;john&nbsp;</td><td>SMITH&nbsp;</td><td>&nbsp;john.smith@mail.com&nbsp;</td><td>new york</td><td>03/14/2026</td><td>Pro</td></tr>
+          <tr><td>jane</td><td>doe</td><td>jane.doe@mail.com</td><td>LONDON</td><td>2026-03-15</td><td>Basic</td></tr>
+          <tr><td>Bob</td><td>&nbsp;&nbsp;JOHNSON</td><td>bob.j@mail.com&nbsp;</td><td>Sydney</td><td>March 2, 2026</td><td>Pro</td></tr>
         </tbody>
       </table>
     </div>
@@ -146,9 +146,9 @@
       <table>
         <thead><tr><th>First Name</th><th>Last Name</th><th>Email</th><th>City</th><th>Signup Date</th><th>Plan</th></tr></thead>
         <tbody>
-          <tr><td>John</td><td>Smith</td><td>john.smith@mail.com</td><td>Edmonton</td><td>2026-03-14</td><td>Pro</td></tr>
-          <tr><td>Jane</td><td>Doe</td><td>jane.doe@mail.com</td><td>Calgary</td><td>2026-03-15</td><td>Basic</td></tr>
-          <tr><td>Bob</td><td>Johnson</td><td>bob.j@mail.com</td><td>Edmonton</td><td>2026-03-02</td><td>Pro</td></tr>
+          <tr><td>John</td><td>Smith</td><td>john.smith@mail.com</td><td>New York</td><td>2026-03-14</td><td>Pro</td></tr>
+          <tr><td>Jane</td><td>Doe</td><td>jane.doe@mail.com</td><td>London</td><td>2026-03-15</td><td>Basic</td></tr>
+          <tr><td>Bob</td><td>Johnson</td><td>bob.j@mail.com</td><td>Sydney</td><td>2026-03-02</td><td>Pro</td></tr>
         </tbody>
       </table>
     </div>
@@ -170,11 +170,11 @@
         <table>
           <thead><tr><th>Name</th><th>Email</th><th>Phone</th><th>City</th></tr></thead>
           <tbody>
-            <tr><td>&nbsp;&nbsp;jOHN&nbsp; smith&nbsp;</td><td>&nbsp;John.Smith@Mail.com&nbsp;</td><td>(403) 555-0182</td><td>edmonton</td></tr>
-            <tr><td>John Smith</td><td>john.smith@mail.com</td><td>403-555-0182</td><td>Edmonton</td></tr>
-            <tr><td>JANE DOE</td><td>JANE.DOE@MAIL.COM</td><td>403.555.0147</td><td>CALGARY</td></tr>
-            <tr><td>jane doe</td><td>jane.doe@mail.com</td><td>(403) 555-0147</td><td>Calgary</td></tr>
-            <tr><td>Bob&nbsp; JOHNSON</td><td>bob.j@mail.com</td><td>780 555 0119</td><td>Edmonton</td></tr>
+            <tr><td>&nbsp;&nbsp;jOHN&nbsp; smith&nbsp;</td><td>&nbsp;John.Smith@Mail.com&nbsp;</td><td>(212) 555-0182</td><td>new york</td></tr>
+            <tr><td>John Smith</td><td>john.smith@mail.com</td><td>212-555-0182</td><td>New York</td></tr>
+            <tr><td>JANE DOE</td><td>JANE.DOE@MAIL.COM</td><td>020.555.0147</td><td>LONDON</td></tr>
+            <tr><td>jane doe</td><td>jane.doe@mail.com</td><td>(020) 555-0147</td><td>London</td></tr>
+            <tr><td>Bob&nbsp; JOHNSON</td><td>bob.j@mail.com</td><td>02 555 0119</td><td>Sydney</td></tr>
           </tbody>
         </table>
       </div>
@@ -184,9 +184,9 @@
         <table>
           <thead><tr><th>Name</th><th>Email</th><th>Phone</th><th>City</th></tr></thead>
           <tbody>
-            <tr><td>John Smith</td><td>john.smith@mail.com</td><td>403-555-0182</td><td>Edmonton</td></tr>
-            <tr><td>Jane Doe</td><td>jane.doe@mail.com</td><td>403-555-0147</td><td>Calgary</td></tr>
-            <tr><td>Bob Johnson</td><td>bob.j@mail.com</td><td>780-555-0119</td><td>Edmonton</td></tr>
+            <tr><td>John Smith</td><td>john.smith@mail.com</td><td>212-555-0182</td><td>New York</td></tr>
+            <tr><td>Jane Doe</td><td>jane.doe@mail.com</td><td>020-555-0147</td><td>London</td></tr>
+            <tr><td>Bob Johnson</td><td>bob.j@mail.com</td><td>02-555-0119</td><td>Sydney</td></tr>
           </tbody>
         </table>
       </div>
@@ -209,9 +209,9 @@
     <ul class="fixes">
       <li>Duplicate rows<span>Exact dupes found and removed — your count stays honest.</span></li>
       <li>Blank rows &amp; empty columns<span>Dropped, so filters and pivots actually work.</span></li>
-      <li>Stray whitespace<span>Every cell trimmed — no more " Edmonton" vs "Edmonton".</span></li>
+      <li>Stray whitespace<span>Every cell trimmed — no more " New York" vs "New York".</span></li>
       <li>Mixed date formats<span>03/14/2026, March 2, Feb 20 → one format (YYYY-MM-DD).</span></li>
-      <li>Inconsistent casing<span>edmonton / EDMONTON / Edmonton → one version, your choice.</span></li>
+      <li>Inconsistent casing<span>new york / NEW YORK / New York → one version, your choice.</span></li>
     </ul>
   </div>
 </section>
